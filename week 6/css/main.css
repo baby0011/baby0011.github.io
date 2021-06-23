@@ -48,12 +48,17 @@ nav ul a {
 }
 
 .large-text {
-    font size: 20px;
+    font-size: 20px;
 }
 
 /* direct child selector */
 article>p {
+/* CSS Typograpghy Properties */
     font: size 24px;
+    font-weight:bold;
+    line-height:1.5;
+    text-transform: lowercase;
+    text-align: center;
 }
 
 /* ajacent sibling selector */
@@ -63,7 +68,7 @@ h3+ul {
 
 /* sibling selector */
 h3~p {
-    text transform: uppercase;
+    text-transform: uppercase;
 }
 
 

@@ -1,6 +1,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: darkslategrey;
+    /* adding backgound image */
+    background-image: url(../images/white_brick_wall.png);
 }
 
 /* 
@@ -37,7 +39,10 @@ nav ul a {
 
 /* selecting elements  with id value */
 #treatofweek {
-    background-color: orange;
+    /* color image repeat position-x position-y */
+    background: orange url(../images/bread\ \(1\).jpg) no-repeat center center;
+    background-size: cover;
+    color:white;
 }
 
 /* selecting HTML elements with class name */

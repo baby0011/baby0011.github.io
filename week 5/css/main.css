@@ -48,7 +48,7 @@ nav ul a {
 }
 
 .large-text {
-    font size: 20px;
+    font-size: 20px;
 }
 
 /* direct child selector */
@@ -63,7 +63,7 @@ h3+ul {
 
 /* sibling selector */
 h3~p {
-    text transform: uppercase;
+    text-transform: uppercase;
 }
 
 

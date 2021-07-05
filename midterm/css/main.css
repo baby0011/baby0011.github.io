@@ -1,21 +1,23 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    color:white;
-
+    background: lightblue;
+    
 }
 /* absolute postion */
 .container {
-    position: relative;
+    position: absolute;
     width: 100%;
+    clear: both;   
 }
 /* positioning the heading */
 h1 {
-    position: absolute;
+    position:absolute;
     top: 50%;
     left: 40%;
     bottom: 50%;
     text-align: center;
     font-size: 5rem;
+    color: white;
 }
 img{
     width: 100%;
@@ -24,12 +26,22 @@ nav ul li{
     display: inline-block;
     color: black;
     width: 30%;
+    margin-left: -4px;
+    
+    
+  
+  
 }
 nav ul a{
     display: block;
     text-decoration: none;
     color: black;
     font-size: 1.5rem;
+    position: relative;
+    top: 560px;
+    bottom: 10px;
+    width: 50%;
+     
 }
 /* using psuedo classes */
 /* styling navigations */
@@ -37,9 +49,17 @@ nav ul a,
 nav ul a:link,
 nav ul a:visited {
     background-color:white;
-    box-shadow: -2p 2px 4px 2px white;
 
 
+    
+}
+nav ul a:hover,
+nav ul a:focus {
+    text-decoration: underline;
+
+}
+    
+   
 
 
 

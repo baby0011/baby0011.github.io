@@ -1,72 +1,99 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background: lightblue;
-    
+    margin-left: 170px;
+    margin-right: 10%;
 }
-/* absolute postion */
+
+/* positioning header */
 .container {
-    position: absolute;
-    width: 100%;
-    clear: both;   
+    position: relative;
+
+
 }
-/* positioning the heading */
-h1 {
-    position:absolute;
-    top: 50%;
-    left: 40%;
-    bottom: 50%;
-    text-align: center;
-    font-size: 5rem;
-    color: white;
-}
-img{
-    width: 100%;
-}
-nav ul li{
+/* styling navigations */
+nav ul li {
     display: inline-block;
     color: black;
     width: 30%;
-    margin-left: -4px;
-    
-    
-  
-  
+    margin-left: 4px;
 }
-nav ul a{
+/* styling anchor tags */
+nav ul a {
     display: block;
     text-decoration: none;
     color: black;
     font-size: 1.5rem;
+    font-weight: bold;
     position: relative;
-    top: 560px;
+    top: 450px;
     bottom: 10px;
     width: 50%;
-     
-}
-/* using psuedo classes */
-/* styling navigations */
-nav ul a,
-nav ul a:link,
-nav ul a:visited {
-    background-color:white;
+    margin-left: 100px;
 
-
-    
 }
+
 nav ul a:hover,
 nav ul a:focus {
     text-decoration: underline;
+}
+/* styling  heading 1 */
+h1 {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 100%;
+    color: white;
+    font-size: 5rem;
+    padding-top: 100px;
+
+
 
 }
-    
-   
 
+img {
+    width: 100%;
+    float: left;
+ 
+}
+/* styling header 2 */
+h2 {
+    padding-top: 450px;
+}
+/* using class to style square star fish */
+.starfish_life img {
 
+    width: 160px;
+    padding-top: 3px;
+    padding-right: 13px;
+    padding-left: 17px;
+}
+/* contact details */
+.contact {
+    border: 2px solid black;
+    padding-top: 7px;
+    padding-bottom: 2px;
+    padding-left: 12px;
+    padding-right: 100px;
+}
+/* adjusting the input bars */
+#fullname,
+#youremail {
+    width: 1170px;
 
+}
 
+#message {
 
+    width: 1170px;
+    height: 60px;
 
-
-
-
-
+}
+/* styling buttons */
+#buttons {
+    padding-top: 0px;
+}
+/* adjusting footer to the edge */
+#footer {
+    margin-left: 1080px;
+}

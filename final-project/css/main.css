@@ -1,0 +1,383 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* CSS Reset */
+
+body {
+    font-family: sans-serif, 'Open sans';
+
+}
+
+.container {
+    background: #222;
+}
+
+.container-nav {
+
+    padding: 20px;
+}
+
+/* styling anchor tags */
+nav ul a {
+    display: block;
+    text-decoration: none;
+    color: #c78c06;
+    font-size: 1rem;
+    position: relative;
+    padding: 10px;
+    margin-left: 180px;
+}
+
+.logo {
+    width: 10%;
+}
+
+.search {}
+
+/* Main-Banner */
+
+.banner {
+
+    position: relative;
+}
+
+img {
+    width: 100%;
+
+}
+
+h1 {
+    font-size: 30px;
+    color: black;
+}
+
+.banner-info {
+    position: absolute;
+    color: black;
+    font-size: 1rem;
+
+
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.about {
+    background-color: #ffe6ac;
+}
+
+.aboutus-info {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.Our-services {
+    font-size: 20px;
+    background-color: #ffe6ac;
+    padding: 20px;
+    width: 100%;
+}
+
+.marketing {
+    font-size: 20px;
+    background-color: #ffe6ac;
+    padding: 20px;
+}
+
+.video-production {
+    font-size: 20px;
+    background-color: #ffe6ac;
+    padding: 20px;
+}
+
+.web {
+    font-size: 20px;
+    background-color: #ffe6ac;
+    padding: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    padding-top: 2rem;
+    margin-left: 1rem;
+
+}
+.vision img {
+    position: absolute;
+    height: 350px;
+    width: 100%;
+}
+
+.vision p {
+  
+    position: relative;
+    color: white;
+    padding-top: 1rem;
+    font-size: 1rem;
+
+}
+
+.vision img {
+    position: absolute;
+    height: 250px;
+    width: 100%;
+}
+
+.vision-info {
+    position: relative;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+
+
+}
+
+.button {
+    padding: 0.5rem;
+    color: white;
+    background-color: black;
+    border: 1px solid grey;
+    border-top: 1px solid green;
+    position: absolute;
+    margin-top: 6px;
+   
+
+
+}
+
+h4{
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    padding-top: 1rem;
+    margin-left: 2rem;
+
+}
+.team{
+    position: relative;
+    margin-left: 10px;
+    padding-top: 5rem;
+
+}
+.team img{
+    padding-top: 2rem;
+}
+.team p{
+    margin-left: 0px;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.member1-info {
+    position: relative;
+    padding-top: 3rem;
+    background-color: #ffe6ac;
+    
+}
+
+h4{
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    padding: 0.5rem;
+    margin-left: 1px;
+  
+}
+h5{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 10px;
+    border-bottom:  0.1rem solid brown;
+    padding: 0.2rem;
+    border-top: 1rem;
+    
+}
+.member2{
+    color:#ffe6ac ;
+}
+.member2-info{
+   background-color:#ffe6ac ;
+}
+.contact{
+    margin-left: 1rem;
+}
+h6{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+/* adjusting the input bars */
+#fullname,
+#youremail {
+    width: 455px;
+
+}
+
+#message {
+
+    width: 455px;
+    height: 60px;
+
+}
+/* styling buttons */
+.buttons {
+   
+    background:black ;
+   
+    color: chocolate;
+    border: 1px solid black;
+    border-bottom: 4px;
+    width: 110px;
+    height: 60px;
+    margin-top: 20px;
+}
+table, th, td{
+    border: 1px solid black;
+    padding: 1rem;
+    width: 480px;
+    background-color: white;
+    margin-top: 1rem;
+}
+
+
+table,  tr, th{
+    background-color: #ffe6ac;
+}

@@ -452,6 +452,7 @@ h5 {
 
 .member2-info {
     background-color: #ffe6ac;
+    margin-left: 2rem;
 }
 
 .contact {
@@ -570,6 +571,7 @@ th {
 
 
     }
+   
 
     .icon {
         display: inline-block;
@@ -609,6 +611,7 @@ th {
         margin-bottom: 355px;
         padding: 3rem;
         background-color: gray;
+        align-content: center;
 
 
     }
@@ -644,7 +647,7 @@ th {
     }
 
     .services img {
-        height: 485px;
+        height: 358px;
     }
 
 
@@ -682,7 +685,7 @@ th {
         display: flex;
         margin-left: 11.8rem;
         margin-right: 11rem;
-        border: 3px solid black;
+       
 
     }
 
@@ -690,27 +693,43 @@ th {
         size: 2rem;
         border-right: 1rem solid white;
     }
-
+    .btn{
+        padding: 0.2rem;
+        margin-top: 6rem;
+        padding-right: 3rem;
+        padding-left: 7rem;
+    }
     .web img {
-        height: 310px;
+        height: 220px;
         border-right: 2px;
     }
 
     .web {
         border-right: 1rem solid white;
+        
     }
 
     .print {
 
         background-color: #ffe6ac;
-        padding: 2rem;
+        padding: 1rem;
+        padding-right: 2rem;
         margin-right: 20px;
+        
 
+    }
+    .print-info{
+        font-size: 20px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
 
     .print img {
 
         padding: 0.5rem;
+        height: 220px;
+        padding-top: 1px;
+        
 
 
     }
@@ -725,27 +744,135 @@ h4{
 }
 .member1{
     
-    width: 40%;
+    width: 30%;
     display: inline-block;
+    margin-left: 322px;
+    flex-basis: 100%;
 
 }
 .flex3{
     display: grid;
-    border: 1px solid black;
+    
     display: inline-block;
     float: right;
+    align-content: center;
 }
 .member1-info{
     
     display: inline-block;
    float: right;
-   margin-left: 1rem;
+   margin-right: 9rem;
+   flex-basis: 50%;
+   margin-top: 2rem;
+   
+   padding: 3rem;
+   
 }
 .member1 img{
     border: right 1px;
+    flex-basis: 60%;
+    margin-right: 15rem;
 }
 
+}
+.flex4{
+    display: grid;
+    
+    display: inline-block;
+    float: right;
+    
+}
+.member2 img{
+    
+    flex-basis: 50%;
+    margin-right: 15rem;
+  
+    
+}
+.member2{
+    
+    width: 30%;
+    display: inline-block;
+    margin-bottom: 1rem;
+    margin-right: 16rem;
+    margin-left: 0px;
 
+   } 
+.member2-info{
+    
+    display: inline-block;
+    float: left;
+    width: 25%;
+    margin-left: 323px;
+    padding: 2rem;
+    padding-bottom: 4.7rem;
+    padding-left: 40px;
+   
+}
+.member2 img{
+    padding-top: 0px;
+    width: 35.6rem;
+    height: 21rem;
+    margin-right: 10rem;
+}
+h4{
+   border-left: 15rem;
+
+   
+}
+#fullname, 
+#youremail{
+    margin-bottom: 15px;
+    width: 1450px;
+}
+#message {
+
+    width: 1450px;
+    height: 60px;
+
+}
+table,
+th,
+td {
+    
+    padding: 1rem;
+    width: 1450px;
+    background-color: white;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    
+
+}
+h2{
+    margin-left: 0.5rem;
+}
+
+table,
+tr,
+th {
+   
+    background-color: #ffe6ac;
+    flex-basis: 50%;
+    order: 0;
+
+}
+.table{
+    display: grid;
+}
+.flex5{
+    display: grid;
+    grid-template-rows: (2,1fr);
+
+    grid-template-areas:
+     "table loc";
+}
+.loc{
+    display: grid;
+   
+}
+#footer p {
+  margin-left: 7rem; ;
+}
 
 
 
